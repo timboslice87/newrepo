@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/bg2.jpeg');
+    background-size: cover;
+    color: white;
+}
+.navbar {
+    padding: 1rem 2rem;
+    
+
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+     padding-left: 60px;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+.nav-item {
+    padding-right: 45px;
+}
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.content {
+    text-align: center;
+    padding: 6rem 2rem;
+    height: 250px;
+    margin-top: 25px;
+}
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.content p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    font-size: small;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer .social-icons a {
+    color: white;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+footer .social-icons a:hover {
+    color: #007bff;
+}
